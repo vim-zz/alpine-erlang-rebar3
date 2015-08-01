@@ -2,6 +2,7 @@ FROM msaraiva/erlang:17.5
 MAINTAINER Ofer Affias
 
 RUN apk --update add \
+	git \
 	erlang17 \
 	erlang17-webtool \
 	erlang17-xmerl \
